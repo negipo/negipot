@@ -10,6 +10,7 @@ GEM
     addressable (2.3.6)
     chrono (0.0.4)
       activesupport
+    coderay (1.1.0)
     dotenv (0.11.1)
       dotenv-deployment (~> 0.0.2)
     dotenv-deployment (0.0.2)
@@ -20,10 +21,18 @@ GEM
     i18n (0.6.9)
     json (1.8.1)
     mem (0.1.1)
+    method_source (0.8.2)
     minitest (5.3.4)
     multipart-post (2.0.0)
     octokit (3.1.0)
       sawyer (~> 0.5.3)
+    pry (0.9.12.6)
+      coderay (~> 1.0)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    redis (3.0.7)
+    redis-namespace (1.4.1)
+      redis (~> 3.0.4)
     ruboty (1.0.1)
       activesupport
       bundler
@@ -44,6 +53,10 @@ GEM
       faraday
       faraday_middleware
       ruboty
+    ruboty-redis (0.0.4)
+      redis
+      redis-namespace
+      ruboty
     ruboty-slack (0.1.4)
       ruboty
       xrc (>= 0.0.3)
@@ -61,9 +74,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  pry
   ruboty
   ruboty-alias
   ruboty-cron
   ruboty-github
   ruboty-google_image
+  ruboty-redis
   ruboty-slack

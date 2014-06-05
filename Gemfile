@@ -6,4 +6,5 @@ gem 'ruboty-alias'
 gem 'ruboty-cron'
 gem 'ruboty-github'
 gem 'ruboty-google_image'
-
+gem 'ruboty-redis'
+gem 'pry'
