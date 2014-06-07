@@ -61,9 +61,9 @@ GEM
       redis
       redis-namespace
       ruboty
-    ruboty-slack (0.1.4)
+    ruboty-slack (0.1.5)
       ruboty
-      xrc (>= 0.0.3)
+      xrc (>= 0.0.6)
     ruboty-weather (0.0.3)
       faraday
       faraday_middleware
@@ -75,7 +75,7 @@ GEM
     thread_safe (0.3.4)
     tzinfo (1.2.1)
       thread_safe (~> 0.1)
-    xrc (0.0.5)
+    xrc (0.0.6)
       activesupport
 
 PLATFORMS
