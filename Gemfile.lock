@@ -64,6 +64,10 @@ GEM
     ruboty-slack (0.1.4)
       ruboty
       xrc (>= 0.0.3)
+    ruboty-weather (0.0.3)
+      faraday
+      faraday_middleware
+      ruboty (>= 0.2.0)
     sawyer (0.5.4)
       addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
@@ -87,3 +91,4 @@ DEPENDENCIES
   ruboty-lgtm
   ruboty-redis
   ruboty-slack
+  ruboty-weather
